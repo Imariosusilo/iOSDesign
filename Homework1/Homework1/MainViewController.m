@@ -39,6 +39,8 @@
     CGSize kbSize = [[userInfo objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
     NSLog(@"Height: %f Width: %f", kbSize.height, kbSize.width);
     
+
+    
     // Get the animation duration and curve from the notification
     NSNumber *durationValue = userInfo[UIKeyboardAnimationDurationUserInfoKey];
     NSTimeInterval animationDuration = durationValue.doubleValue;
