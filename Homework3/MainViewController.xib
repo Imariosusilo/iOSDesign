@@ -30,7 +30,7 @@
                             <gestureRecognizers/>
                         </imageView>
                         <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="news" translatesAutoresizingMaskIntoConstraints="NO" id="OtO-ub-t8a">
-                            <rect key="frame" x="-501" y="316" width="1182" height="252"/>
+                            <rect key="frame" x="-993" y="317" width="1471" height="251"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <gestureRecognizers/>
                             <connections>
