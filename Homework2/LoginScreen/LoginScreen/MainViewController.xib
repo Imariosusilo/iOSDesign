@@ -38,7 +38,7 @@
                                         <action selector="onEditingChanged:" destination="-1" eventType="editingChanged" id="wew-UX-DDI"/>
                                     </connections>
                                 </textField>
-                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" background="password" translatesAutoresizingMaskIntoConstraints="NO" id="Yql-CL-iIu">
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yql-CL-iIu">
                                     <rect key="frame" x="30" y="32" width="244" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -106,6 +106,5 @@
     </objects>
     <resources>
         <image name="facebookfont" width="199" height="63"/>
-        <image name="password" width="180" height="320"/>
     </resources>
 </document>
