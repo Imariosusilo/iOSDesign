@@ -6,12 +6,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
             <connections>
-                <outlet property="MainViewController" destination="1" id="xda-9A-2QW"/>
                 <outlet property="logInButton" destination="hi3-Xn-bNL" id="X4S-iR-wgl"/>
                 <outlet property="logInContainer" destination="UYZ-Sr-fzf" id="cjY-AR-1nM"/>
-                <outlet property="onTap" destination="Loe-yY-CCZ" id="kln-mp-TVg"/>
                 <outlet property="passWordInput" destination="TyL-Dr-fRd" id="vG9-b0-UtO"/>
-                <outlet property="paswwordInput" destination="TyL-Dr-fRd" id="PhF-J0-Fx4"/>
                 <outlet property="signUpContainer" destination="fny-Rv-PMm" id="5Hg-sb-QKZ"/>
                 <outlet property="userNameInput" destination="wMb-VK-SrK" id="9C0-eD-RNJ"/>
                 <outlet property="view" destination="1" id="3"/>
@@ -23,23 +20,23 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UYZ-Sr-fzf">
-                    <rect key="frame" x="0.0" y="145" width="315" height="171"/>
+                    <rect key="frame" x="0.0" y="130" width="320" height="272"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="USER NAME" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wMb-VK-SrK">
-                            <rect key="frame" x="40" y="29" width="240" height="30"/>
+                            <rect key="frame" x="43" y="53" width="240" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="PASSWORD" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TyL-Dr-fRd">
-                            <rect key="frame" x="40" y="82" width="240" height="30"/>
+                            <rect key="frame" x="43" y="106" width="240" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hi3-Xn-bNL">
-                            <rect key="frame" x="45" y="128" width="224" height="30"/>
+                            <rect key="frame" x="48" y="152" width="224" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="LOG IN">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -49,7 +46,7 @@
                     </subviews>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fny-Rv-PMm">
-                    <rect key="frame" x="0.0" y="391" width="320" height="93"/>
+                    <rect key="frame" x="0.0" y="391" width="320" height="83"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign Up with FaceBook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbO-Lg-d6n">
@@ -75,9 +72,13 @@
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <connections>
-                <outletCollection property="gestureRecognizers" destination="Loe-yY-CCZ" appends="YES" id="Ux4-aq-IEZ"/>
+                <outletCollection property="gestureRecognizers" destination="UAn-gy-NAs" appends="YES" id="lLF-lO-2wh"/>
             </connections>
         </view>
-        <tapGestureRecognizer id="Loe-yY-CCZ"/>
+        <tapGestureRecognizer id="UAn-gy-NAs">
+            <connections>
+                <action selector="onTap:" destination="-1" id="0oB-zn-xaB"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
 </document>

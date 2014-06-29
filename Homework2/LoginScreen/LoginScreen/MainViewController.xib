@@ -100,7 +100,7 @@
         </view>
         <tapGestureRecognizer id="T3U-1a-GHR">
             <connections>
-                <action selector="onTap:" destination="-1" id="Tg2-2Q-VWO"/>
+                <action selector="onTap:" destination="-1" id="zxV-qe-nQb"/>
             </connections>
         </tapGestureRecognizer>
     </objects>

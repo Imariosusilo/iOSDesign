@@ -53,7 +53,7 @@ CGRect signUpFrame;
     [super viewDidLoad];
     loginFrame = self.logginBar.frame;
     signUpFrame = self.signUpView.frame;
-    self.goButton.enabled = YES;
+    self.goButton.enabled = NO;
     self.logginBar.layer.cornerRadius = 3;
 
     
